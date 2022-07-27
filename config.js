@@ -16,12 +16,12 @@ module.exports = {
     {
       icon: 'fa-instagram',
       name: 'Instagram',
-      url: 'https://instagram.com/rogergraciedarlington?igshid=YmMyMTA2M2Y=',
+      url: 'https://instagram.com/rgadarlington?igshid=YmMyMTA2M2Y=',
     },
     {
       icon: 'fa-facebook-f',
       name: 'Facebook',
-      url: 'https://www.facebook.com/groups/692540421913922/',
+      url: 'https://www.facebook.com/rgadarlington',
     },
   ],
   email: 'rgadarlington@gmail.com',
