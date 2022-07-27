@@ -14,8 +14,7 @@ import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
 import TimetableSection from '../components/sections/timetable';
-import ContactSection from '../components/sections/contact';
-import AboutSection from '../components/sections/about';
+
 
 const IndexPage = () => (
   <Layout>
@@ -59,8 +58,6 @@ const IndexPage = () => (
     </section>
 
     <TimetableSection />
-    <ContactSection />
-    <AboutSection />
 
     <section id="projects" className="projects-section bg-light">
       <div className="container">
