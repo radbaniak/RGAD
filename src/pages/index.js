@@ -42,14 +42,9 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
+            <h2 className="text-white mb-4">About RGA</h2>
             <p className="text-white-50">
-              Grayscale is a free Bootstrap theme created by Start Bootstrap. It
-              can be yours right now, simply download the starter on&nbsp;
-              <a href="https://github.com/anubhavsrivastava/gatsby-starter-grayscale">
-                the github repo
-              </a>
-              .
+            The Roger Gracie Academy is well known for the exceptional atmosphere that is fostered there. All of our members are treated as part of a big family, and the result is a relaxed and enjoyable place in which to train. Roger Gracie is a ten time Jiu-Jitsu world champion. He is the grandson of the founder of the art, Carlos Gracie. Son of Mauricio Gomes and Reila Gracie. The Gracie family has been the driving force in the growth of Jiu-Jitsu and the revolution in the martial arts around the world.
             </p>
           </div>
         </div>
