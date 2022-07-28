@@ -9,12 +9,11 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
+// import ipad from '../assets/images/ipad.png';
 import TimetableSection from '../components/sections/timetable';
-
+import bjjImage from '../assets/images/bjj_rga.jpeg';
+import noGi from '../assets/images/no_gi_rga.jpeg';
+import wrestling from '../assets/images/wrestling.jpeg'
 
 const IndexPage = () => (
   <Layout>
@@ -61,15 +60,13 @@ const IndexPage = () => (
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
+            <img className="img-fluid mb-3 mb-lg-0" src={bjjImage} alt="" />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
+              <h4>Jiu Jitsu</h4>
               <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
+               Gracie Jiu Jitsu is one of the most effective, reality-based fighting systems in the world. Created by the Gracie Family, the basic premise of Jiu-Jitsu is that 90% of fights end up on the ground. As such, Jiu-Jitsu is focused primarily on effective ground fighting. The goal is to put an opponent into situations on the ground where joint locks and/or chokes can be applied to force him/her to submit.
               </p>
             </div>
           </div>
@@ -77,16 +74,15 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <img className="img-fluid" src={noGi} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <h4 className="text-white">NO-GI/Submission Grappling</h4>
                   <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                   NO GI/Submission Grappling is the ground-fighting martial art focused on joint locks, chokes, and positions. It is the science of using leverage, human body mechanics, balance, and technique to create favorable situations against a live opponent. It is the practical approach to the MMA ground game.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -97,17 +93,15 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img className="img-fluid" src={wrestling} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">Wrestling</h4>
                   <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                  Wrestling is a hand-to-hand combat system and a set of combat sports involving grappling-type techniques such as clinch fighting, throws and takedowns, joint locks, pins and other grappling holds.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
