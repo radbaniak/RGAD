@@ -68,7 +68,7 @@ export default class Header extends Component {
                   element="about"
                 >
                   <a className="nav-link" href="#about">
-                    <button className="btn">
+                    <button className="btn btn-primary">
                       About
                     </button>
                   </a>
@@ -81,7 +81,7 @@ export default class Header extends Component {
                   element="timetable"
                 >
                   <a className="nav-link" href="#timetable">
-                    <button className="btn">
+                    <button className="btn btn-primary">
                       Schedule
                     </button>
                   </a>
@@ -94,7 +94,7 @@ export default class Header extends Component {
                   element="classes"
                 >
                   <a className="nav-link" href="#classes">
-                    <button className="btn">
+                    <button className="btn btn-primary">
                       Classes
                     </button>
                   </a>
@@ -107,7 +107,7 @@ export default class Header extends Component {
                   element="contact"
                 >
                   <a className="nav-link" href="#contact">
-                    <button className="btn">
+                    <button className="btn btn-primary">
                       Contact
                     </button>
                   </a>
@@ -121,7 +121,7 @@ export default class Header extends Component {
                 >
                   <a className="nav-link" href="#signup">
                   <button className="btn btn-primary">
-                    Sign-up
+                    Sign Up
                   </button>
                   </a>
                 </Scroll>
