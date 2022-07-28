@@ -79,11 +79,23 @@ export default class Header extends Component {
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
                   element="timetable"
-                  offset={-110}
                 >
                   <a className="nav-link" href="#timetable">
                     <button className="btn">
-                      Classes &amp; Schedule
+                      Schedule
+                    </button>
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="classes"
+                >
+                  <a className="nav-link" href="#classes">
+                    <button className="btn">
+                      Classes
                     </button>
                   </a>
                 </Scroll>

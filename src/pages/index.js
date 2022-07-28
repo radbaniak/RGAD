@@ -57,7 +57,7 @@ const IndexPage = () => (
 
     <TimetableSection />
 
-    <section id="projects" className="projects-section bg-light">
+    <section id="classes" className="classes-section bg-light">
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
