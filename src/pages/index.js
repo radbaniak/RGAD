@@ -14,6 +14,7 @@ import TimetableSection from '../components/sections/timetable';
 import bjjImage from '../assets/images/bjj_rga.jpeg';
 import noGi from '../assets/images/no_gi_rga.jpeg';
 import wrestling from '../assets/images/wrestling.jpeg'
+import kids from '../assets/images/kids.jpeg'
 
 const IndexPage = () => (
   <Layout>
@@ -104,6 +105,24 @@ const IndexPage = () => (
                   Wrestling is a hand-to-hand combat system and a set of combat sports involving grappling-type techniques such as clinch fighting, throws and takedowns, joint locks, pins and other grappling holds.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={kids} alt="" />
+          </div>
+          <div className="col-lg-6">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">Kids</h4>
+                  <p className="mb-0 text-white-50">
+                   History has shown that martial arts can be an excellent teacher for children to learn life skills such as discipline, mental strength, focus, hard work, integrity, confidence, teamwork, and more. Ultimately, martial arts are about continuous self-improvement physically, mentally, emotionally, and spiritually. Of course, the goal is also to bully-proof your child against bullies. The scars of bullying can last a lifetime and can destroy self-esteem and confidence.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
               </div>
             </div>
