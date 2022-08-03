@@ -9,13 +9,13 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
+
+// import ipad from '../assets/images/ipad.png';
 import TimetableSection from '../components/sections/timetable';
-import ContactSection from '../components/sections/contact';
-import AboutSection from '../components/sections/about';
+import bjjImage from '../assets/images/bjj_rga.jpeg';
+import noGi from '../assets/images/no_gi_rga.jpeg';
+import wrestling from '../assets/images/wrestling.jpeg'
+import kids from '../assets/images/kids.jpeg'
 
 const IndexPage = () => (
   <Layout>
