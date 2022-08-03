@@ -44,10 +44,17 @@ const IndexPage = () => (
           <div className="col-lg-8 mx-auto">
             <h2 className="text-white mb-4">About RGA</h2>
             <p className="text-white-50">
+
+             Roger Gracie is a ten time Jiu-Jitsu world champion. He is the grandson of the founder of the art, Carlos Gracie. Son of Mauricio Gomes and Reila Gracie. The Gracie family has been the driving force in the growth of Jiu-Jitsu and the revolution in the martial arts around the world. The Headquarters of RGA is based in London, where Roger and his father Mauricio teach world class Jiu-Jitsu. 
+            </p>
+            <p className="text-white-50">
+             RGA Darlington opened the doors in March 2022 by David Mooore and Jakub Niski. Their partnership brings a variety and wealth of Jiu-Jitsu experience. Jakub who has trained since 2015 in RGA London Headquarters is a multiple European IBJJF and UAEJJF medallist, now teaches the Adult Advanced Classes. David who began training in INSERTYEAR is a British Open and NAGA Champion, teaches Kids Jiu Jitsu and Adult Fundamental classes. 
+
              Roger Gracie is a ten time Jiu-Jitsu world champion. He is the grandson of the founder of the art, Carlos Gracie. Son of Mauricio Gomes and Reila Gracie. The Gracie family has been the driving force in the growth of Jiu-Jitsu and the revolution of martial arts around the world. The Headquarters of RGA is based in London, where Roger and his father Mauricio teach world class Jiu-Jitsu. 
             </p>
             <p className="text-white-50">
              RGA Darlington opened it's doors in March 2022 by David Moore and Jakub Niski. Their partnership brings a variety and wealth of Jiu-Jitsu experience. Jakub, who has trained since 2015 in RGA London Headquarters is a multiple European IBJJF and UAEJJF medallist, now teaches the Adult Advanced Classes. David, who began training in INSERTYEAR is a British Open and NAGA Champion, teaches Kids Jiu Jitsu and Adult Fundamental classes. 
+
             </p>
           </div>
         </div>
@@ -57,7 +64,7 @@ const IndexPage = () => (
 
     <TimetableSection />
 
-    <section id="projects" className="projects-section bg-light">
+    <section id="classes" className="classes-section bg-light">
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
