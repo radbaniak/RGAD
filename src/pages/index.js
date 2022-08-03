@@ -9,7 +9,6 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-
 // import ipad from '../assets/images/ipad.png';
 import TimetableSection from '../components/sections/timetable';
 import bjjImage from '../assets/images/bjj_rga.jpeg';
@@ -43,38 +42,39 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
+            <h2 className="text-white mb-4">About RGA</h2>
             <p className="text-white-50">
-              Grayscale is a free Bootstrap theme created by Start Bootstrap. It
-              can be yours right now, simply download the starter on&nbsp;
-              <a href="https://github.com/anubhavsrivastava/gatsby-starter-grayscale">
-                the github repo
-              </a>
-              .
+
+             Roger Gracie is a ten time Jiu-Jitsu world champion. He is the grandson of the founder of the art, Carlos Gracie. Son of Mauricio Gomes and Reila Gracie. The Gracie family has been the driving force in the growth of Jiu-Jitsu and the revolution in the martial arts around the world. The Headquarters of RGA is based in London, where Roger and his father Mauricio teach world class Jiu-Jitsu. 
+            </p>
+            <p className="text-white-50">
+             RGA Darlington opened the doors in March 2022 by David Mooore and Jakub Niski. Their partnership brings a variety and wealth of Jiu-Jitsu experience. Jakub who has trained since 2015 in RGA London Headquarters is a multiple European IBJJF and UAEJJF medallist, now teaches the Adult Advanced Classes. David who began training in INSERTYEAR is a British Open and NAGA Champion, teaches Kids Jiu Jitsu and Adult Fundamental classes. 
+
+             Roger Gracie is a ten time Jiu-Jitsu world champion. He is the grandson of the founder of the art, Carlos Gracie. Son of Mauricio Gomes and Reila Gracie. The Gracie family has been the driving force in the growth of Jiu-Jitsu and the revolution of martial arts around the world. The Headquarters of RGA is based in London, where Roger and his father Mauricio teach world class Jiu-Jitsu. 
+            </p>
+            <p className="text-white-50">
+             RGA Darlington opened it's doors in March 2022 by David Moore and Jakub Niski. Their partnership brings a variety and wealth of Jiu-Jitsu experience. Jakub, who has trained since 2015 in RGA London Headquarters is a multiple European IBJJF and UAEJJF medallist, now teaches the Adult Advanced Classes. David, who began training in INSERTYEAR is a British Open and NAGA Champion, teaches Kids Jiu Jitsu and Adult Fundamental classes. 
+
             </p>
           </div>
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
+       {/* <img src={ipad} className="img-fluid" alt="" /> */}
       </div>
     </section>
 
     <TimetableSection />
-    <ContactSection />
-    <AboutSection />
 
-    <section id="projects" className="projects-section bg-light">
+    <section id="classes" className="classes-section bg-light">
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
+            <img className="img-fluid mb-3 mb-lg-0" src={bjjImage} alt="" />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
+              <h4>Jiu Jitsu</h4>
               <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
+               Gracie Jiu Jitsu is one of the most effective, reality-based fighting systems in the world. Created by the Gracie Family, the basic premise of Jiu-Jitsu is that 90% of fights end up on the ground. As such, Jiu-Jitsu is focused primarily on effective ground fighting. The goal is to put an opponent into situations on the ground where joint locks and/or chokes can be applied to force him/her to submit.
               </p>
             </div>
           </div>
@@ -82,16 +82,15 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <img className="img-fluid" src={noGi} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <h4 className="text-white">NO-GI/Submission Grappling</h4>
                   <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                   NO GI/Submission Grappling is the ground-fighting martial art focused on joint locks, chokes, and positions. It is the science of using leverage, human body mechanics, balance, and technique to create favorable situations against a live opponent. It is the practical approach to the MMA ground game.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -102,19 +101,35 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img className="img-fluid" src={wrestling} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">Wrestling</h4>
                   <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                  Wrestling is a hand-to-hand combat system and a set of combat sports involving grappling-type techniques such as clinch fighting, throws and takedowns, joint locks, pins and other grappling holds.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={kids} alt="" />
+          </div>
+          <div className="col-lg-6">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">Kids</h4>
+                  <p className="mb-0 text-white-50">
+                   History has shown that martial arts can be an excellent teacher for children to learn life skills such as discipline, mental strength, focus, hard work, integrity, confidence, teamwork, and more. Ultimately, martial arts are about continuous self-improvement physically, mentally, emotionally, and spiritually. Of course, the goal is also to bully-proof your child against bullies. The scars of bullying can last a lifetime and can destroy self-esteem and confidence.
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
               </div>
             </div>
