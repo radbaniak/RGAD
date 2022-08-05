@@ -15,7 +15,8 @@ import bjjImage from '../assets/images/bjj_rga.jpeg';
 import noGi from '../assets/images/no_gi_rga.jpeg';
 import wrestling from '../assets/images/wrestling.jpeg'
 import kids from '../assets/images/kids.jpeg'
-
+import ContactForm from '../components/Form';
+ 
 const IndexPage = () => (
   <Layout>
     <Header />
@@ -60,8 +61,8 @@ const IndexPage = () => (
 
     <section id="classes" className="classes-section bg-light">
       <div className="container">
-        <div className="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div className="col-xl-8 col-lg-7">
+        <div className="row align-items-center no-gutters mb-0 mb-lg-0">
+          <div className="col-xl-6 col-lg-7">
             <img className="img-fluid mb-3 mb-lg-0" src={bjjImage} alt="" />
           </div>
           <div className="col-xl-4 col-lg-5">
@@ -131,9 +132,8 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-
+    <ContactForm />
     <Subscribe />
-
     <SocialLinks />
     <Footer />
   </Layout>
