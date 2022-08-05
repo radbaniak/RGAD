@@ -104,7 +104,7 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="contact"
+                  element="contact"             
                 >
                   <a className="nav-link" href="#contact">
                     <button className="btn btn-primary">

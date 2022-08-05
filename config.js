@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/favicon.png',
-  pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/RGAD`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Roger Gracie Academy',
   subHeading: 'Brazilian Jiu-Jitsu Academy, Darlington.  ',
 
