@@ -15,7 +15,7 @@ import bjjImage from '../assets/images/bjj_rga.jpeg';
 import noGi from '../assets/images/no_gi_rga.jpeg';
 import wrestling from '../assets/images/wrestling.jpeg'
 import kids from '../assets/images/kids.jpeg'
-import ContactForm from '../components/Form';
+
  
 const IndexPage = () => (
   <Layout>
@@ -132,7 +132,6 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <ContactForm />
     <Subscribe />
     <SocialLinks />
     <Footer />

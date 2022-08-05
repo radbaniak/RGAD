@@ -11,7 +11,10 @@
     "email": "anubhav.srivastava00@gmail.com"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "bootstrap": "^5.2.0",
+    "emailjs": "^4.0.0",
+    "emailjs-com": "^3.2.0",
     "gatsby": "^4.2.0",
     "gatsby-plugin-manifest": "^4.2.0",
     "gatsby-plugin-offline": "^5.2.0",
@@ -24,6 +27,7 @@
     "react-helmet": "^5.2.1",
     "react-images": "^1.1.0",
     "react-scrollspy": "^3.4.0",
+    "save": "^2.5.0",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {
