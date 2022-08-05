@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'RGA Darlington', // <title>
-  manifestName: 'Grayscale',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestName: 'Roger Gracie Jiu-Jitsu Academy Darlington',
+  manifestShortName: 'RGAD', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',

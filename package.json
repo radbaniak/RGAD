@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-grayscale",
+  "name": "rga-darlington",
   "version": "0.0.2",
-  "description": "Gatsby.js V4 starter template based on Grayscale by startbootstrap",
+  "description": "Roger Gracie Jiu Jitsu Academy Darlington",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-grayscale.git"
+    "url": "git+https://github.com/RadoslawBaniak/RGAD"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Radoslaw Baniak",
+    "email": "radoslawbaniak@googlemail.com"
   },
   "dependencies": {
     "-": "^0.0.1",
