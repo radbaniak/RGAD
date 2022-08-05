@@ -1,4 +1,5 @@
 import React from 'react';
+import config from '../../config';
 
 
 export default function Subscribe() {
@@ -41,7 +42,17 @@ export default function Subscribe() {
 					</div>
 				</div>
 			</div>
-			
+			<div className="container mt-4">
+				<div className="row">
+					<div className="col-md-10 col-lg-8 mx-auto text-center">
+						<h2>Trial Class</h2>
+						<p>If you wish to organise a trial class, press the button below. Tell one of our instructors your level of experience, which discipline interests you, or any other queries.</p>
+							<button onClick={() => window.location = 'mailto:rgadarlington@gmail.com'} style={{minWidth: "250px" }} id="membership" type="submit" className="btn btn-primary mx-auto">
+								Book Your Trial Now
+							</button>
+					</div>
+				</div>
+			</div>
 		</section>
 		
 	);
