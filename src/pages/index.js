@@ -61,7 +61,7 @@ const IndexPage = () => (
 
     <section id="classes" className="classes-section bg-light">
       <div className="container">
-        <div className="row align-items-center no-gutters mb-0 mb-lg-0">
+        <div className="row align-items-center no-gutters mb-4 mb-lg-4">
           <div className="col-xl-6 col-lg-7">
             <img className="img-fluid mb-3 mb-lg-0" src={bjjImage} alt="" />
           </div>
@@ -75,7 +75,7 @@ const IndexPage = () => (
           </div>
         </div>
 
-        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-4">
           <div className="col-lg-6">
             <img className="img-fluid" src={noGi} alt="" />
           </div>
@@ -94,7 +94,7 @@ const IndexPage = () => (
           </div>
         </div>
 
-        <div className="row justify-content-center no-gutters">
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-4">
           <div className="col-lg-6">
             <img className="img-fluid" src={wrestling} alt="" />
           </div>
@@ -112,7 +112,7 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-4">
           <div className="col-lg-6">
             <img className="img-fluid" src={kids} alt="" />
           </div>
