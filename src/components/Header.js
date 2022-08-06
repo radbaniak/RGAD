@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
 import config from '../../config';
+import logoCropped from '../assets/images/rga-logo-cropped.png';
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -40,9 +41,10 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
-            {config.siteTitle}
-          </a>
+          <img id="logoCropped" className="img-fluid" src={logoCropped} alt="RGA Logo" />
+          {/* <a className="navbar-brand" href="#page-top">
+            {/* {config.siteTitle} }
+          </a> */}
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
             className={`navbar-toggler navbar-toggler-right ${
