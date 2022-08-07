@@ -80,14 +80,14 @@ const IndexPage = () => (
             <img className="img-fluid" src={noGi} alt="" />
           </div>
           <div className="col-lg-6">
-            <div className="bg-black text-center h-100 project">
+            <div className="text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">NO-GI/Submission Grappling</h4>
-                  <p className="mb-0 text-white-50">
+                  <h4 className="text-black">No-Gi Submission Grappling</h4>
+                  <p className="mb-0 text-black-50">
                    NO GI/Submission Grappling is the ground-fighting martial art focused on joint locks, chokes, and positions. It is the science of using leverage, human body mechanics, balance, and technique to create favorable situations against a live opponent. It is the practical approach to the MMA ground game.
                   </p>
-                  <hr className="d-none d-lg-block mb-0 ml-0" />
+                  {/* <hr className="d-none d-lg-block mb-0 ml-0" /> */}
                 </div>
               </div>
             </div>
@@ -95,7 +95,7 @@ const IndexPage = () => (
         </div>
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-4">
-          <div className="col-lg-6">
+          <div className="col-lg-6 ml-0">
             <img className="img-fluid" src={wrestling} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
