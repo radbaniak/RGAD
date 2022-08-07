@@ -3,7 +3,7 @@ import timetableImage from '../../assets/images/RGA-summer.png';
 
 const TimetableSection = () => {
   return (
-    <section id="timetable" className="timetable-section bg-light">
+    <section id="timetable" className="timetable-section bg-light mt-5">
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-lg-12">
