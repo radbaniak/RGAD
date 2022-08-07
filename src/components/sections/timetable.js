@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import timetableImage from '../../assets/images/timetable.jpeg';
+import timetableImage from '../../assets/images/RGA-summer.jpg';
 
 const TimetableSection = () => {
   return (
