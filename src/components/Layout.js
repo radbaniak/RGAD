@@ -25,7 +25,7 @@ class Layout extends Component {
               title={data.site.siteMetadata.title}
               meta={[
                 { name: 'description', content: 'Jiu-Jitsu Academy in Darlington' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'keywords', content: 'Jiu-Jitsu, web, site, BJJ, Academy, Darlington, MMA, training' },
               ]}
             >
               <html lang="en" />
