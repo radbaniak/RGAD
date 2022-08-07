@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'RGA Darlington', // <title>
+  siteTitle: 'Roger Gracie Darlington', // <title>
   manifestName: 'Roger Gracie Jiu-Jitsu Academy Darlington',
   manifestShortName: 'RGAD', // max 12 characters
   manifestStartUrl: '/',
