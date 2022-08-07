@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
-//import config from '../../config';
+import config from '../../config';
 import logoCropped from '../assets/images/rga-logo-cropped.png';
 export default class Header extends Component {
   constructor(props) {
@@ -45,6 +45,16 @@ export default class Header extends Component {
           {/* <a className="navbar-brand" href="#page-top">
             {/* {config.siteTitle} }
           </a> */}
+          <div id="headerSocial" className="social d-flex justify-content-center">
+            {config.socialLinks.map(social => {
+              const { icon, url } = social;
+              return (
+                <a key={url} href={url} target="_blank" rel="noopener noreferrer" className={`mx-2`}>
+                  <i className={`fab ${icon}`}></i>
+                </a>
+              );
+            })}
+          </div>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
             className={`navbar-toggler navbar-toggler-right ${
