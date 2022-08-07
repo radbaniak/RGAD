@@ -1,12 +1,12 @@
 module.exports = {
-  siteTitle: 'RGA Darlington', // <title>
+  siteTitle: 'Roger Gracie Darlington', // <title>
   manifestName: 'Roger Gracie Jiu-Jitsu Academy Darlington',
   manifestShortName: 'RGAD', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/favicon.png',
+  manifestIcon: 'src/assets/images/rga-logo-cropped.png',
   pathPrefix: `/RGAD`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Roger Gracie Academy',
   subHeading: 'Brazilian Jiu-Jitsu Academy, Darlington.  ',

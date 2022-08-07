@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
-import config from '../../config';
+//import config from '../../config';
 import logoCropped from '../assets/images/rga-logo-cropped.png';
 export default class Header extends Component {
   constructor(props) {
