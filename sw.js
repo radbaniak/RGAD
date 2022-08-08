@@ -27,24 +27,21 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-34ed6fac16195610c2fc.js"
+    "url": "webpack-runtime-59577c3a79319b370df1.js"
   },
   {
     "url": "framework-8e0da09bb1d34e5785e9.js"
   },
   {
-    "url": "app-f74760ddc8941a2ef066.js"
+    "url": "app-f488d4d293b1aeaae963.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "b5060e3eeb9b40d8e045280ebbaa2bcd"
-  },
-  {
-    "url": "polyfill-48d0fb1ece1335f5f663.js"
+    "revision": "d079025c2ce5d4c40fc52976088d2832"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "7c67639d3113d67d9df6b626abe1f602"
+    "revision": "58da4b8e23c4f9addd0848ed73065218"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -149,12 +146,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/RGAD`), ``)
+  pathname = pathname.replace(new RegExp(`^https://www.rgadarlington.com`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/RGAD/app-f74760ddc8941a2ef066.js`))) {
+  if (!resources || !(await caches.match(`https://www.rgadarlington.com/app-f488d4d293b1aeaae963.js`))) {
     return await fetch(event.request)
   }
 
@@ -167,7 +164,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/RGAD/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `https://www.rgadarlington.com/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
