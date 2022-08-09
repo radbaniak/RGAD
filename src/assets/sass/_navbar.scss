@@ -37,6 +37,12 @@
       }
     }
   }
+  @media (max-width: 425px) {
+    #logoCropped {
+      width: 4rem;
+      height:auto;
+    }
+  }
   @media (min-width: 992px) {
     padding-top: 0;
     padding-bottom: 0;
