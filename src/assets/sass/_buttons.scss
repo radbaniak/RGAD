@@ -21,3 +21,9 @@
     background-color: darken($primary, 15%) !important;
   }
 }
+
+@media (max-width: 768px) {
+  .nav-item .btn {
+    width: 150px;
+  }
+}
