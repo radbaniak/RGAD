@@ -34,7 +34,7 @@ export default function Subscribe() {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-10 col-lg-8 mx-auto text-center">
-						<form action="https://pay.gocardless.com/AL0004DSMESD4D" target="_blank" className="form-inline d-flex">
+						<form action="https://pay.gocardless.com/flow/RE001X0354QBJMPBNXN5E0GWBX9D2WV1" target="_blank" className="form-inline d-flex">
 							<button style={{minWidth: "250px" }} id="membership" type="submit" className="btn btn-primary mx-auto">
 								Kids: Age 4-15
 							</button>
