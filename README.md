@@ -4,11 +4,11 @@ Gatsby.js V4 starter template based on Grayscale by startbootstrap
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
-Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-grayscale/)
+Live version [here](https://www.rgadarlington.com/)
 
 ## Screenshot
 
-![Screenshot](./src/assets/img/demo.png)
+![Screenshot](./src/assets/img/demo)
 
 ## Install
 
@@ -21,7 +21,7 @@ npm install --global gatsby-cli
 And run from your CLI:
 
 ```sh
-gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-grayscale
+gatsby new <site-name> https://github.com/radbaniak/RGAD
 ```
 
 Then you can run it by:
