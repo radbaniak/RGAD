@@ -1,14 +1,13 @@
 # RGAD
 
-Gatsby.js V4 starter template based on Grayscale by startbootstrap
+Roger Gracie Academy website based on Grayscale template by https://github.com/anubhavsrivastava/gatsby-starter-grayscale
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
 Live version [here](https://www.rgadarlington.com/)
 
 ## Screenshot
 
-![Screenshot](./src/assets/img/demo)
+![Screenshot](./src/assets/img/demo.png)
 
 ## Install
 
