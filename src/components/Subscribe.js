@@ -8,7 +8,7 @@ export default function Subscribe() {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-10 col-lg-8 mx-auto text-center">
-						<h1>Sign Up</h1>
+						<h2>Membership</h2>
 						<p>We offer various memberships, depending on age:</p>
 						<form action="https://pay.gocardless.com/AL0005H72P8388" target="_blank" className="form-inline d-flex">
 							<button style={{minWidth: "250px" }} id="membership" type="submit" className="btn btn-primary mx-auto btn-lg">

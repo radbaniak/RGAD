@@ -40,7 +40,7 @@ export default function SocialLinks() {
               </div>
             </div>
           </div>
-        </div>
+        </div>  
 
         <div className="social d-flex justify-content-center">
           {config.socialLinks.map(social => {

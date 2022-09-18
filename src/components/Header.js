@@ -85,7 +85,21 @@ export default class Header extends Component {
                     </button>
                   </a>
                 </Scroll>
-              </li>              
+              </li>       
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="updates"
+                  offset={-100}
+                >
+                  <a className="nav-link" href="#updates">
+                  <button className="btn btn-primary">
+                    Updates
+                  </button>
+                  </a>
+                </Scroll>
+              </li>       
               <li className="nav-item">
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
@@ -118,12 +132,13 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="contact"             
+                  element="signup"
+                  offset={20}
                 >
-                  <a className="nav-link" href="#contact">
-                    <button className="btn btn-primary">
-                      Contact
-                    </button>
+                  <a className="nav-link" href="#signup">
+                  <button className="btn btn-primary">
+                    Membership
+                  </button>
                   </a>
                 </Scroll>
               </li>
@@ -131,13 +146,12 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="signup"
-                  offset={20}
+                  element="contact"             
                 >
-                  <a className="nav-link" href="#signup">
-                  <button className="btn btn-primary">
-                    Sign Up
-                  </button>
+                  <a className="nav-link" href="#contact">
+                    <button className="btn btn-primary">
+                      Contact
+                    </button>
                   </a>
                 </Scroll>
               </li>
