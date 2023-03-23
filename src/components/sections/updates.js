@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+/* import React, {useState} from 'react';
 import offerImage from '../../assets/images/september_offer.jpeg';
 
 const UpdatesSection = () => {
@@ -24,4 +24,4 @@ const UpdatesSection = () => {
     );
   }
 
-export default UpdatesSection;
+export default UpdatesSection; */

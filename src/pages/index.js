@@ -54,7 +54,6 @@ const IndexPage = () => (
        {/* <img src={ipad} className="img-fluid" alt="" /> */}
       </div>
     </section>
-    <UpdatesSection />
     <TimetableSection />
 
     <section id="classes" className="classes-section bg-light">

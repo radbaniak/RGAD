@@ -9,12 +9,7 @@ export default function Subscribe() {
 				<div className="row">
 					<div className="col-md-10 col-lg-8 mx-auto text-center">
 						<h2>Membership</h2>
-						<p>We offer various memberships, depending on age:</p>
-						<form action="https://pay.gocardless.com/AL0005H72P8388" target="_blank" className="form-inline d-flex">
-							<button style={{minWidth: "250px" }} id="membership" type="submit" className="btn btn-primary mx-auto btn-lg">
-								Adult Membership
-							</button>  
-						</form>
+						<script src="https://secure.clubmanagercentral.com/Portal/d5e6b88b-9f4c-491a-9274-09254872e5ce/Home/clubmanager-integration.js"></script><iframe width="100%" height="800" allowtransparency="true" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://secure.clubmanagercentral.com/d5e6b88b-9f4c-491a-9274-09254872e5ce/Joining.mvc?showLogo=true&showBook=true&"></iframe>
 					</div>
 				</div>
 			</div>
@@ -22,11 +17,6 @@ export default function Subscribe() {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-10 col-lg-8 mx-auto text-center">
-						<form action="https://pay.gocardless.com/AL0004DSMESD4D" target="_blank" className="form-inline d-flex">
-							<button style={{minWidth: "250px" }} id="membership" type="submit" className="btn btn-primary mx-auto">
-								Teen: Age 15-16
-							</button>
-						</form>
 					</div>
 				</div>
 			</div>
@@ -34,11 +24,7 @@ export default function Subscribe() {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-10 col-lg-8 mx-auto text-center">
-						<form action="https://pay.gocardless.com/AL0005H72Q4E69" target="_blank" className="form-inline d-flex">
-							<button style={{minWidth: "250px" }} id="membership" type="submit" className="btn btn-primary mx-auto">
-								Kids: Age 4-15
-							</button>
-						</form>
+
 					</div>
 				</div>
 			</div>
