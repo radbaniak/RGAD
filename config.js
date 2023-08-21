@@ -24,7 +24,9 @@ module.exports = {
       url: 'https://www.facebook.com/rgadarlington',
     },
   ],
-  email: 'rgadarlington@gmail.com',
-  phone: '+44 7763 364 206',
+  email: 'info@rgadarlington.com',
+  phone: 'Head Coach - Jakub: 07763 364 206',
+  phone2: 'General Manager - Ben: 07483 070 353',
+  phone3: 'Juniors Manager - Joanna: 07383 196 018',
   address: 'Unit 9, Code Business Estate, Henson Road, Darlington, DL1 4NZ',
 };

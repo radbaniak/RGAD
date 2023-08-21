@@ -1,27 +1,49 @@
-/* import React, {useState} from 'react';
-import offerImage from '../../assets/images/september_offer.jpeg';
+import React from 'react';
+import photo1 from '../../assets/images/portrait1.jpg';
+
 
 const UpdatesSection = () => {
-    return (
-      
+  return (
     <section id="updates" className="updates-section bg-light">
-    <div className="container">
-      <div className="row align-items-center mb-4 mb-lg-4">
-        <div className="col-xl-6 col-lg-7">
-          <img className="img-fluid mb-3 mb-lg-0" src={offerImage} alt="" />
-        </div>
-        <div className="col-xl-4 col-lg-5">
-          <div className="featured-text text-center text-lg-left">
-            <p className="text-black-80 mb-0">
-             This month we have something for both new and existing members. Get in touch to enjoy this amazing offer.
-             Keep an eye out for our regular promotions on our social media pages. 
-            </p>
+      <div className="container">
+        <h2 className="text-center mb-5">Meet the team</h2>
+        <div className="row justify-content-center align-items-center">
+          <div className="col-md-6 col-12 mb-4">
+            <div className="card text-center">
+              <img className="card-img-top rounded-circle img-fluid mx-auto" src={photo1} alt="Photo 1" style={{maxWidth: '60%'}} />
+              <div className="card-body">
+                <p className="card-text">Caption for Photo 1</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 col-12 mb-4">
+            <div className="card text-center">
+              <img className="card-img-top rounded-circle img-fluid mx-auto" src={photo1} alt="Photo 2" style={{maxWidth: '60%'}} />
+              <div className="card-body">
+                <p className="card-text">Caption for Photo 2</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 col-12 mb-4">
+            <div className="card text-center">
+              <img className="card-img-top rounded-circle img-fluid mx-auto" src={photo1} alt="Photo 3" style={{maxWidth: '60%'}} />
+              <div className="card-body">
+                <p className="card-text">Caption for Photo 3</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 col-12 mb-4">
+            <div className="card text-center">
+              <img className="card-img-top rounded-circle img-fluid mx-auto" src={photo1} alt="Photo 4" style={{maxWidth: '60%'}} />
+              <div className="card-body">
+                <p className="card-text">Caption for Photo 4</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      </div>
-      </section>
-    );
-  }
+    </section>
+  );
+}
 
-export default UpdatesSection; */
+export default UpdatesSection;

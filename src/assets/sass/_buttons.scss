@@ -25,7 +25,21 @@
 }
 
 @media (max-width: 768px) {
+  .nav-item .nav-link {
+    display: flex; /* Add this to make the anchor tag a flex container */
+    justify-content: center;
+  }
+
   .nav-item .btn {
-    width: 150px;
+    width: 200px;
+    margin: 0 auto; /* Remove this line, as we're now using flexbox for centering */
+  }
+
+  .navbar { /* Center the buttons vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
+
+

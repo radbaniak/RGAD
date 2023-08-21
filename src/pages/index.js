@@ -30,7 +30,7 @@ const IndexPage = () => (
             {config.subHeading}
           </h2>
           <Scroll type="id" element="about">
-            <a href="#about" className="btn btn-primary">
+            <a href="#about" className="btn btn-primary mx-auto">
               About
             </a>
           </Scroll>
@@ -44,17 +44,27 @@ const IndexPage = () => (
           <div className="col-lg-8 mx-auto">
             <h2 className="text-white mb-4">About RGA</h2>
             <p className="text-white-50">
-             RGA Darlington opened its doors in March 2022 by <b>David Mooore</b> and <b>Jakub Niski.</b> Their partnership brings a variety and wealth of Jiu-Jitsu experience. Jakub who has trained since 2015 in RGA London Headquarters with Roger and Mauricio themselves, is a multiple IBJJF and UAEJJF medallist. David who began training in 2009 is a British Open and NAGA Champion. 
+            RGA Darlington opened its doors in March 2022. Head Coach <b>Jakub Niski</b> has trained since 2015 in RGA HQ, London directly under Roger Gracie and Mauricio Gomes. He brings a wealth of knowledge and experience have trained and competed at the highest level. Jakub is a multiple IBJJF and UAEJJF medalist. 
             </p>
             <p className="text-white-50">
-             Roger Gracie is a ten time Jiu-Jitsu world champion. He is the grandson of the founder of the art, Carlos Gracie. Son of Mauricio Gomes and Reila Gracie. The Gracie family has been the driving force in the growth of Jiu-Jitsu and the revolution in the martial arts around the world. The Headquarters of RGA is based in London, where Roger and his father Mauricio teach world class Jiu-Jitsu. 
+            Roger Gracie is one of the greatest jiu-jitsu competitors to have ever stepped on a mat. A 10x Black Belt World Champion and a multiple MMA champion, Roger is one the most decorated fighters of the modern era, and a member of the International Brazilian Jiu-Jitsu Federation Hall of Fame. Roger is the son of Reila Gracie and Mauricio Gomes (one of a handful of men who received their black belts from Jiu-Jitsu legend Rolls Gracie), and the grandson of Carlos Gracie.
+
+At RGA Darlington we believe implicitly in the core values set out by Roger and Mauricio:
+
+<div id="spacer"><h5>Discipline</h5></div>
+<h5>Consistency</h5>
+<h5>Accountability</h5>
+<h5>Alignment</h5>
+<h5>Authenticity</h5>
             </p>
           </div>
         </div>
        {/* <img src={ipad} className="img-fluid" alt="" /> */}
       </div>
     </section>
+    {/* <UpdatesSection /> */}
     <TimetableSection />
+    
 
     <section id="classes" className="classes-section bg-light">
       <div className="container">
@@ -99,8 +109,8 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Wrestling</h4>
-                  <p className="mb-0 text-white-50">
+                  <h4 className="text-white mr-3">Wrestling</h4>
+                  <p className="mb-0 text-white-50 mr-3">
                   Wrestling is a hand-to-hand combat system and a set of combat sports involving grappling-type techniques such as clinch fighting, throws and takedowns, joint locks, pins and other grappling holds.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
@@ -110,15 +120,15 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="row justify-content-center no-gutters mb-5 mb-lg-4">
-          <div className="col-lg-6">
+          <div className="col-lg-6 mr-0">
             <img className="img-fluid" src={kids} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Kids</h4>
-                  <p className="mb-0 text-white-50">
+                  <h4 className="text-white ml-3">Kids</h4>
+                  <p className="mb-0 text-white-50 ml-3 mr-3">
                    History has shown that martial arts can be an excellent teacher for children to learn life skills such as discipline, mental strength, focus, hard work, integrity, confidence, teamwork, and more. Ultimately, martial arts are about continuous self-improvement physically, mentally, emotionally, and spiritually. Of course, the goal is also to bully-proof your child against bullies. The scars of bullying can last a lifetime and can destroy self-esteem and confidence.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />

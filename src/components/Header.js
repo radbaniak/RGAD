@@ -28,10 +28,22 @@ export default class Header extends Component {
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener('click', this.handleOutsideClick);
   }
+  
   componentWillUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener('click', this.handleOutsideClick);
   }
+  
+  handleOutsideClick = (event) => {
+    const navbar = document.getElementById('mainNav');
+    if (navbar.contains(event.target)) {
+      return;
+    }
+    this.toggleMenu(false);
+  };
+  
 
   render() {
     const { openMenu, visibilityClass } = this.state;
@@ -65,7 +77,7 @@ export default class Header extends Component {
             aria-expanded={openMenu}
             aria-label="Toggle navigation"
           >
-            Menu 
+            <span id="menu-text">MENU</span>
             <i className="fas fa-bars ml-1"></i>
           </button>
           <div
@@ -81,7 +93,7 @@ export default class Header extends Component {
                 >
                   <a className="nav-link" href="#about">
                     <button className="btn btn-primary">
-                      About
+                      ABOUT
                     </button>
                   </a>
                 </Scroll>
@@ -92,10 +104,10 @@ export default class Header extends Component {
                   type="id"
                   element="updates"
                   offset={-100}
-                >
+                >{/* 
                   <a className="nav-link" href="#updates">
                   <button className="btn btn-primary">
-                    Updates
+                    TEAM
                   </button>
                   </a>
                 </Scroll>
@@ -106,10 +118,10 @@ export default class Header extends Component {
                   type="id"
                   element="timetable"
                   offset={-50}
-                >
+                > */}
                   <a className="nav-link" href="#timetable">
                     <button className="btn btn-primary">
-                      Schedule
+                      SCHEDULE
                     </button>
                   </a>
                 </Scroll>
@@ -123,7 +135,7 @@ export default class Header extends Component {
                 >
                   <a className="nav-link" href="#classes">
                     <button className="btn btn-primary">
-                      Classes
+                      CLASSES
                     </button>
                   </a>
                 </Scroll>
@@ -137,7 +149,7 @@ export default class Header extends Component {
                 >
                   <a className="nav-link" href="#signup">
                   <button className="btn btn-primary">
-                    Membership
+                    MEMBERSHIP
                   </button>
                   </a>
                 </Scroll>
@@ -150,7 +162,7 @@ export default class Header extends Component {
                 >
                   <a className="nav-link" href="#contact">
                     <button className="btn btn-primary">
-                      Contact
+                      CONTACT
                     </button>
                   </a>
                 </Scroll>
