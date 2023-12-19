@@ -12,7 +12,9 @@ export default function SocialLinks() {
                 <i className="fas fa-map-marked-alt text-primary mb-2"></i>
                 <h4 className="text-uppercase m-0">Address</h4>
                 <hr className="my-4" />
-                <div className="small text-black-50">{config.address}</div>
+                <div className="small text-black-50">
+                <a href="https://maps.app.goo.gl/fPBzhUeSM1AuqHeL8">{config.address}</a>
+                  </div>
               </div>
             </div>
           </div>
