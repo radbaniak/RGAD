@@ -13,7 +13,7 @@ export default function SocialLinks() {
                 <h4 className="text-uppercase m-0">Address</h4>
                 <hr className="my-4" />
                 <div className="small text-black-50">
-                <a href="https://maps.app.goo.gl/fPBzhUeSM1AuqHeL8">{config.address}</a>
+                <a href="https://maps.app.goo.gl/uKgNfiXjQFDuRfem8">{config.address}</a>
                   </div>
               </div>
             </div>
