@@ -15,6 +15,7 @@ import bjjImage from '../assets/images/bjj_rga.jpeg';
 import noGi from '../assets/images/no_gi_rga.jpeg';
 import wrestling from '../assets/images/wrestling.jpeg'
 import kids from '../assets/images/kids.jpeg'
+import gym from '../assets/images/gym.jpeg'
 import UpdatesSection from '../components/sections/updates';
 
  
@@ -42,9 +43,13 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">About RGA</h2>
+            <h2 className="text-white mb-4">About Roger Gracie Academy Darlington</h2>
+           {/* Add the gym image here */}
+           <div className="mb-4">
+              <img src={gym} className="img-fluid" alt="Gym" />
+            </div>
             <p className="text-white-50">
-            RGA Darlington opened its doors in March 2022. Head Coach <b>Jakub Niski</b> has trained since 2015 in RGA HQ, London directly under Roger Gracie and Mauricio Gomes. He brings a wealth of knowledge and experience have trained and competed at the highest level. Jakub is a multiple IBJJF and UAEJJF medalist. 
+            Roger Gracie Academy Darlington opened its doors in March 2022. Head Coach <b>Jakub Niski</b> has trained since 2015 in RGA HQ, London directly under Roger Gracie and Mauricio Gomes. He brings a wealth of knowledge and experience have trained and competed at the highest level. Jakub is a multiple IBJJF and UAEJJF medalist. 
             </p>
             <p className="text-white-50">
             Roger Gracie is one of the greatest jiu-jitsu competitors to have ever stepped on a mat. A 10x Black Belt World Champion and a multiple MMA champion, Roger is one the most decorated fighters of the modern era, and a member of the International Brazilian Jiu-Jitsu Federation Hall of Fame. Roger is the son of Reila Gracie and Mauricio Gomes (one of a handful of men who received their black belts from Jiu-Jitsu legend Rolls Gracie), and the grandson of Carlos Gracie.

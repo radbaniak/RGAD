@@ -1,3 +1,37 @@
 .timetable-section {
     padding-top: 0;
 }
+
+.timetable-section {
+    padding: 40px 0; /* Add padding to the section */
+  }
+  
+  .timetable-iframe {
+    border: 1px solid #ddd; /* Optional border */
+    padding: 10px; /* Add padding inside the iframe */
+    margin: 20px 0; /* Add margin around the iframe */
+    height: 1000px;
+    width: 100%; /* Make sure the iframe takes full width */
+    display: block; /* Ensure the iframe acts like a block element */
+  }
+
+  .container {
+    display: flex;
+    justify-content: center; /* Center the iframe horizontally */
+    align-items: center; /* Center the iframe vertically */
+  }
+  
+  .timetable-iframe {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 20px;
+    display: block;
+  }
+  .timetable-iframe {
+    max-width: 100%; /* Make sure it doesn't exceed the container width */
+    height: auto;
+    padding: 10px;
+    margin: 20px;
+  }
+    

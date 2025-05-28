@@ -26,6 +26,6 @@ module.exports = {
   ],
   email: 'admin@rgadarlington.com',
   phone: 'Head Coach - Jakub: 07763 364 206',
-  phone2: '07413 662 770',
+  phone2: '07763 364 206',
   address: '10 Valley Street North, Darlington, DL1 1LF',
 };
